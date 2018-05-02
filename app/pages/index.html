@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<script defer src="/__/firebase/4.13.0/firebase-app.js"></script>
+<!-- include only the Firebase features as you need -->
+<script defer src="/__/firebase/4.13.0/firebase-auth.js"></script>
+<script defer src="/__/firebase/4.13.0/firebase-database.js"></script>
+<script defer src="/__/firebase/4.13.0/firebase-messaging.js"></script>
+<script defer src="/__/firebase/4.13.0/firebase-storage.js"></script>
+<!-- initialize the SDK after all desired features are loaded -->
+<script defer src="/__/firebase/init.js"></script>
+<script src="https://www.gstatic.com/firebasejs/4.13.0/firebase.js"></script>
+
+<script src="https://www.gstatic.com/firebasejs/4.13.0/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyDKWxPe9NwlmzRAPd02_qkDQvtTnSvoz-I",
+    authDomain: "league-of-duos.firebaseapp.com",
+    databaseURL: "https://league-of-duos.firebaseio.com",
+    projectId: "league-of-duos",
+    storageBucket: "league-of-duos.appspot.com",
+    messagingSenderId: "369203669616"
+  };
+  firebase.initializeApp(config);
+</script>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>League of Duos</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="assets/css/styles.css"> -->
+    <link rel="stylesheet" href="../assets/scss/style.css">
+    <script src="../assets/scripts/jquery-3.3.1.min.js"></script>
+
+</head>
+
+<body>
+
+    <div id="div-config"></div>
+    <div id="div-principal"></div>
+    <div id="div-matches"></div>
+
+    <script type="text/javascript">
+        $("#div-config").load("/pages/configuracoes.html");
+        $("#div-principal").load("/pages/principal.html");
+        $("#div-matches").load("/pages/matches.html"); 
+    </script>
+</body>
+
+</html>
