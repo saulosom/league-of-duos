@@ -1,0 +1,31 @@
+[debug] [2018-05-04T14:47:17.103Z] ----------------------------------------------------------------------
+[debug] [2018-05-04T14:47:17.119Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\saulo.teymeny\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-05-04T14:47:17.119Z] CLI Version:   3.18.4
+[debug] [2018-05-04T14:47:17.119Z] Platform:      win32
+[debug] [2018-05-04T14:47:17.119Z] Node Version:  v8.11.1
+[debug] [2018-05-04T14:47:17.119Z] Time:          Fri May 04 2018 11:47:17 GMT-0300 (E. South America Standard Time)
+[debug] [2018-05-04T14:47:17.119Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-05-04T14:47:17.134Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-05-04T14:47:17.134Z] > authorizing via signed-in user
+[debug] [2018-05-04T14:47:17.134Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/league-of-duos  
+  
+ Fri May 04 2018 11:47:17 GMT-0300 (E. South America Standard Time)
+[debug] [2018-05-04T14:47:18.031Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-04T14:47:18.031Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/league-of-duos/tokens  
+  
+ Fri May 04 2018 11:47:18 GMT-0300 (E. South America Standard Time)
+[debug] [2018-05-04T14:47:18.699Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-04T14:47:18.699Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/league-of-duos  
+  
+ Fri May 04 2018 11:47:18 GMT-0300 (E. South America Standard Time)
+[debug] [2018-05-04T14:47:19.571Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\saulo.teymeny\Desktop\Pessoal\League of Duos\league-of-duos'...
+[info] 
+[debug] [2018-05-04T14:47:19.571Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/369203669616/clients/_:getWebAppConfig  
+  
+ Fri May 04 2018 11:47:19 GMT-0300 (E. South America Standard Time)
+[debug] [2018-05-04T14:47:20.367Z] <<< HTTP RESPONSE 200
+[info] +  hosting: Local server: http://localhost:5000
+
