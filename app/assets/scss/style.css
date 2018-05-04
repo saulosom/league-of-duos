@@ -138,7 +138,7 @@ header nav li:last-child {
 /*----------------
  	Hero Section
 ----------------*/
-.hero {
+.hero, .page-main, .page-left, .page-right {
   position: relative;
   justify-content: center;
   min-height: 100vh;
@@ -146,7 +146,7 @@ header nav li:last-child {
   text-align: center;
 }
 
-.hero .background-image {
+.hero .background-image, .page-main .background-image, .page-left .background-image, .page-right .background-image {
   position: absolute;
   top: 0;
   left: 0;
@@ -157,7 +157,7 @@ header nav li:last-child {
   z-index: -1;
 }
 
-.hero .background-image:after {
+.hero .background-image:after, .page-main .background-image:after, .page-left .background-image:after, .page-right .background-image:after {
   content: '';
   position: absolute;
   top: 0;
@@ -168,31 +168,31 @@ header nav li:last-child {
   opacity: 0.75;
 }
 
-.hero h1 {
+.hero h1, .page-main h1, .page-left h1, .page-right h1 {
   font: bold 60px 'Open Sans', sans-serif;
   margin-bottom: 15px;
 }
 
-.hero h3 {
+.hero h3, .page-main h3, .page-left h3, .page-right h3 {
   font: normal 28px 'Open Sans', sans-serif;
   margin-bottom: 40px;
 }
 
-.hero a.btn {
+.hero a.btn, .page-main a.btn, .page-left a.btn, .page-right a.btn {
   padding: 20px 46px;
 }
 
 @media (max-width: 800px) {
-  .hero {
+  .hero, .page-main, .page-left, .page-right {
     min-height: 600px;
   }
-  .hero h1 {
+  .hero h1, .page-main h1, .page-left h1, .page-right h1 {
     font-size: 48px;
   }
-  .hero h3 {
+  .hero h3, .page-main h3, .page-left h3, .page-right h3 {
     font-size: 24px;
   }
-  .hero a.btn {
+  .hero a.btn, .page-main a.btn, .page-left a.btn, .page-right a.btn {
     padding: 15px 40px;
   }
 }
@@ -397,5 +397,32 @@ footer p a {
   #bsaHolder {
     display: none;
   }
+}
+
+.grid li {
+  padding: 20px;
+  height: 350px;
+  border-radius: 3px;
+  background-clip: content-box;
+  background-size: cover;
+  background-position: center;
+  background-color: #333;
+}
+
+.page-main, .page-left, .page-right {
+  float: left;
+  flex-basis: 100%;
+  background-color: #2196F3;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.page-left {
+  background-color: #21f391;
+}
+
+.page-right {
+  background-color: #414a4f;
 }
 /*# sourceMappingURL=style.css.map */
